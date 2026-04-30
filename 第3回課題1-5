@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    double height,base,area;
+    printf("高さを入力: ");
+    scanf("%lf",&height);
+    printf("底辺を入力: ");
+    scanf("%lf",&base);
+    area=base*height/2.0;
+    printf("三角形の面積=%f\n",area);
+    return 0;
+}
