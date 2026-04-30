@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int a,b,c;
+    int used,remain;
+    printf("クラスの人数: ");
+    scanf("%d",&a);
+    printf("野球チーム数: ");
+    scanf("%d",&b);
+    printf("バレーチーム数: ");
+    scanf("%d",&c);
+    used=b*9+c*6;
+    remain=a-used;
+    printf("参加できない人数=%d人\n",remain);
+    return 0;
+}
